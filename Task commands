@@ -1,0 +1,79 @@
+gint init
+
+git add --all , git add . 
+
+git commit -m "msg"
+
+git push origin main
+
+
+to create new branch >> git branch newbranch
+
+
+to cd to newbranch >>> git checkout newbranch
+
+
+to push newbranch >>> git push origin newbranch
+
+
+to merge branchs >> git merge "name of branch"
+
+remove branch from remote server>>git push origin :develop
+
+
+remove branch locally >> git branch -d "name of branch"
+                      >>git branch -D "name of branch"
+
+
+
+create lightweight tag >> git tag " tag name"
+
+
+create annotated tag >> git tag -a "name" -m "msg"
+
+
+to create tag on specif commit >>>git tag -a "7 num from commit" "msg"
+
+
+to list all tags >>>> git tag
+
+to push tags individual>>>> git push origin "tag name"
+
+
+to push all tags >>> git push --tags
+
+to push only annotated tags >> git push origin --follow-tags
+
+
+to remove tags locally >> git tag -d "tag name"
+
+to remove remote tags >> git push origin --delte"tagname"
+
+
+to create bold or italic >> *Italic*  , **Bold**
+
+to create pragraph >> line break "space betwen lines"
+                   >> or use /
+
+
+to create headings >> # H1 , ## H2 , ### H3
+
+to create blockquotes >>>> >first line
+                           >another line 
+                           > > nested line   
+
+
+to create list >>> use  ( - )     -Dog  
+          or use numbers  1. Dog   
+
+to create links >> [text](url)
+                 or [text][id]
+                 or [id] : url "title"
+
+to create image >> ![alt](src)
+
+
+
+to create nested lists >>> * item 
+                               1.cat
+                               2.another cat
